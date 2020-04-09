@@ -28,6 +28,14 @@ new Vue({
         getRandom(min,max){
             const value = Math.random() * (max-min) + min;
             return Math.round(value)
+        },
+        heal(min,max){
+            const heal = this.getRandom(min,max);
+            this.playerLife = Math.min(this.playerLife + heal,100);
+        },
+        healAndHurt(){
+            this.heal(10,15);
+            this.hurt('playerLife',7,12,false);
         }
     },
     watch:{
