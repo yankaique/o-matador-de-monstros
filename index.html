@@ -37,7 +37,9 @@
                 <button
                     @click="attack(true)"
                     class="btn especial-attack">Ataque Especial</button>
-                <button class="btn heal">Curar</button>
+                <button
+                    @click="healAndHurt" 
+                    class="btn heal">Curar</button>
                 <button @click="running = false " class="btn give-up">Desistir</button>
             </template>
             <button v-else @click="startGame" class="btn new-game">Iniciar Jogo</button>
