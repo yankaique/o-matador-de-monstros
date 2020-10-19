@@ -39,7 +39,7 @@ html{
 .life-bar{
     width: 80%;
     height: 20px;
-    border: 1px solid #AAA;
+    border: 1px solid rgb(253, 0, 0);
 }
 
 .life-bar .life{
@@ -50,7 +50,7 @@ html{
 }
 
 .life-bar .life.danger{
-    background-color: red;
+    background-color: black;
 }
 
 /*  Área do Resultado */
