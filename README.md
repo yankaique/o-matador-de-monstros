@@ -8,7 +8,7 @@ O projeto é bem simples, o jogador deve atacar o inimigo para poder vencer.
 - Vue JS
 
 ## Como testar ?
-Para testar basta iniciar a index.html
+Para testar basta iniciar a index.html, aproveite a experiência.
 
 
 
